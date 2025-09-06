@@ -52,4 +52,9 @@ class AppTextStyles {
     fontWeight: FontWeight.w400,
     fontSize: 14,
   );
+  static TextStyle semibold14 = TextStyle(
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w600,
+    fontSize: 14,
+  );
 }

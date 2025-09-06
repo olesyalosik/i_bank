@@ -1,4 +1,4 @@
-import 'dart:ui';
+import 'package:flutter/cupertino.dart';
 
 class AppColors {
   //primary colors
@@ -23,4 +23,12 @@ class AppColors {
   //other
   static const Color textFieldBorderColor = Color.fromRGBO(203, 203, 203, 1);
   static const Color checkBoxBorderColor = Color.fromRGBO(191, 191, 191, 1);
+  static const Color forgotPasswordColor = Color.fromRGBO(151, 151, 151, 1);
+  static const Color neutral1WithOpacity7 = Color.fromRGBO(52, 52, 52, 0.07);
+
+  //shadows
+  static const BoxShadow dropShadowCard = BoxShadow(
+    color: neutral1WithOpacity7,
+    blurRadius: 30.0,
+  );
 }
